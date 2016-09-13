@@ -29,6 +29,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'kaminari'
 gem 'cancancan', '~> 1.10'
+gem 'pg'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

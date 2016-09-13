@@ -22,5 +22,8 @@ bundle
 
 2. Create Model:
 rails db:create
-rails g model idea title description:text member
+rails g model user name email password_digest
 rails db:migrate
+
+3. Controller
+rails g controller home
